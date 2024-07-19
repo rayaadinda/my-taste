@@ -8,7 +8,10 @@ function App() {
 					My Top 10 Recently Played Songs
 				</h1>
 				<div className="flex flex-wrap justify-center space-x-4 space-y-4">
-					<Spotify link="https://open.spotify.com/track/1CfcKv1RLdJBWhRHAZgVdf?si=64fa983ffa8a4a34" />
+					<Spotify
+						link="https://open.spotify.com/track/1CfcKv1RLdJBWhRHAZgVdf?si=64fa983ffa8a4a34"
+						className="mt-4"
+					/>
 					<Spotify link="https://open.spotify.com/track/2eAZfqOm4EnOF9VvN50Tyc?si=3cdb27a997774c17" />
 					<Spotify link="https://open.spotify.com/track/7FeEiAWqWScpMFnlLSUvX2?si=6a4fa93587524527" />
 				</div>
